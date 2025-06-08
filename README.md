@@ -1,6 +1,6 @@
 # DG-Sinmai-Shock-Mod
 
-English | [简体中文](https://github.com/Cainongw/dg-sinmai-shock-mod/zh/README.md)
+English | [简体中文](https://github.com/Cainongw/dg-sinmai-shock-mod/tree/main/zh)
 
 This is a **MelonLoader**-based mod designed for an 8-key rhythm game cabinet.
 
