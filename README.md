@@ -16,21 +16,31 @@ The configuration is up to you — ensure the shock intensity (or whatever else)
 
 2. Edit the `DGShockMod.toml` file located in the same directory as `sinmai.exe`, for example:
 
-```toml
-# WebSocket connection URL
-ws_url = "ws://192.168.1.100:60536/v1"
 
-# JSON content to send when a Miss happens
-send_content = '''
-{
-  "cmd": "set_pattern",
-  "pattern_name": "classic",
-  "intensity": 100,
-  "ticks": 1
-}
-'''
+```toml
+# config.toml
+
+# The backend address of DGLAB
+# DO NOT use lookback address like 127.0.0.1
+ws_url = "ws://192.168.0.233:9999"
+
+
+# Shock Mode
+# Options：single / ramp
+type = "single"
+
+# Single mode settings (Only works with type = "single")
+single_intensity = 100
+single_channel = "A" # A/B or Both
+single_ms = 500
+
+# Ramp mode settings (Only works with type = "Ramp")
+ramp_start_intensity = 50
+ramp_step = 10
+ramp_max_intensity = 150  
 ```
-For reference on JSON content, see [open-DGLAB-controller](https://github.com/open-toys-controller/open-DGLAB-controller).
+
+3. Start the game and scan the QRCode on your screen
 
 ---
 

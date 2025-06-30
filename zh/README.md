@@ -15,20 +15,29 @@
 
 
 ```toml
-# WebSocket 连接地址
-ws_url = "ws://192.168.1.100:60536/v1"
+# config.toml
 
-# Miss 发生时发送的 JSON 内容
-send_content = '''
-{
-  "cmd": "set_pattern",
-  "pattern_name": "经典",
-  "intensity": 100,
-  "ticks": 1
-}
-'''
+# 设备 WebSocket 后端
+#不要使用回环地址诸如127.0.0.1
+ws_url = "ws://192.168.0.233:9999"
+
+
+# 电击模式配置
+# 模式类型：single / ramp
+type = "single"
+
+# 单次电击参数（仅当 type = "single" 时生效）
+single_intensity = 100
+single_channel = "A" # A/B or Both
+single_ms = 500
+
+# 逐步增强电击参数（仅当 type = "ramp" 时生效）
+ramp_start_intensity = 50
+ramp_step = 10
+ramp_max_intensity = 150  
 ```
-Json内容参考[open-DGLAB-controller](https://github.com/open-toys-controller/open-DGLAB-controller)
+
+3. 打开游戏用App扫描弹出来的二维码
 
 
 ## Build

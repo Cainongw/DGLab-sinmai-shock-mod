@@ -1,30 +1,69 @@
 {
   "version": 3,
   "targets": {
-    ".NETFramework,Version=v4.7.2": {}
+    ".NETFramework,Version=v4.7.2": {
+      "QRCoder/1.6.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "PresentationCore",
+          "PresentationFramework",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net40/QRCoder.dll": {}
+        },
+        "runtime": {
+          "lib/net40/QRCoder.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "QRCoder/1.6.0": {
+      "sha512": "XmPA81eo+oRxBuyVdswsSkTGTE1d3thfF11Z1PdD7oB56A6HU4G4AAOdySmGRMb/cljwlFTMWUtosGEnwpS6GA==",
+      "type": "package",
+      "path": "qrcoder/1.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/QRCoder.dll",
+        "lib/net40/QRCoder.dll",
+        "lib/net5.0-windows7.0/QRCoder.dll",
+        "lib/net5.0/QRCoder.dll",
+        "lib/net6.0-windows7.0/QRCoder.dll",
+        "lib/net6.0/QRCoder.dll",
+        "lib/netstandard1.3/QRCoder.dll",
+        "lib/netstandard2.0/QRCoder.dll",
+        "nuget-icon.png",
+        "nuget-readme.md",
+        "qrcoder.1.6.0.nupkg.sha512",
+        "qrcoder.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETFramework,Version=v4.7.2": []
+    ".NETFramework,Version=v4.7.2": [
+      "QRCoder >= 1.6.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\10158\\.nuget\\packages\\": {},
+    "C:\\Users\\Cainong\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\10158\\Documents\\Projects\\dg-sinmai-shcoker\\dg-sinmai-shcoker\\dg-sinmai-shcoker.csproj",
+      "projectUniqueName": "G:\\projects\\dg-sinmai-shock-mod\\dg-sinmai-shcoker\\dg-sinmai-shcoker.csproj",
       "projectName": "dg_sinmai_shcoker",
-      "projectPath": "C:\\Users\\10158\\Documents\\Projects\\dg-sinmai-shcoker\\dg-sinmai-shcoker\\dg-sinmai-shcoker.csproj",
-      "packagesPath": "C:\\Users\\10158\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\10158\\Documents\\Projects\\dg-sinmai-shcoker\\dg-sinmai-shcoker\\obj\\",
+      "projectPath": "G:\\projects\\dg-sinmai-shock-mod\\dg-sinmai-shcoker\\dg-sinmai-shcoker.csproj",
+      "packagesPath": "C:\\Users\\Cainong\\.nuget\\packages\\",
+      "outputPath": "G:\\projects\\dg-sinmai-shock-mod\\dg-sinmai-shcoker\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\10158\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Cainong\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -56,7 +95,13 @@
     "frameworks": {
       "net472": {
         "targetAlias": "net472",
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\RuntimeIdentifierGraph.json"
+        "dependencies": {
+          "QRCoder": {
+            "target": "Package",
+            "version": "[1.6.0, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

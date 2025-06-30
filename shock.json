@@ -1,0 +1,14 @@
+{
+    "type": "msg",
+    "clientId": "xxxx-xxxxxxxxx-xxxxx-xxxxx-xx",
+    "targetId": "xxxx-xxxxxxxxx-xxxxx-xxxxx-xx",
+    "message": "strength-11+7+100+35"
+}
+{
+    "type": 2,
+    "strength": 1,
+    "message": "set channel",
+    "channel": 2,
+    "clientId“:”xxxx-xxxxxxxxx-xxxxx-xxxxx-xx",
+    "targetId:xxxx-xxxxxxxxx-xxxxx-xxxxx-xx"
+}

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\10158\\Documents\\Projects\\dg-sinmai-shcoker\\dg-sinmai-shcoker\\dg-sinmai-shcoker.csproj": {}
+    "G:\\projects\\dg-sinmai-shock-mod\\dg-sinmai-shcoker\\dg-sinmai-shcoker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\10158\\Documents\\Projects\\dg-sinmai-shcoker\\dg-sinmai-shcoker\\dg-sinmai-shcoker.csproj": {
+    "G:\\projects\\dg-sinmai-shock-mod\\dg-sinmai-shcoker\\dg-sinmai-shcoker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\10158\\Documents\\Projects\\dg-sinmai-shcoker\\dg-sinmai-shcoker\\dg-sinmai-shcoker.csproj",
+        "projectUniqueName": "G:\\projects\\dg-sinmai-shock-mod\\dg-sinmai-shcoker\\dg-sinmai-shcoker.csproj",
         "projectName": "dg_sinmai_shcoker",
-        "projectPath": "C:\\Users\\10158\\Documents\\Projects\\dg-sinmai-shcoker\\dg-sinmai-shcoker\\dg-sinmai-shcoker.csproj",
-        "packagesPath": "C:\\Users\\10158\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\10158\\Documents\\Projects\\dg-sinmai-shcoker\\dg-sinmai-shcoker\\obj\\",
+        "projectPath": "G:\\projects\\dg-sinmai-shock-mod\\dg-sinmai-shcoker\\dg-sinmai-shcoker.csproj",
+        "packagesPath": "C:\\Users\\Cainong\\.nuget\\packages\\",
+        "outputPath": "G:\\projects\\dg-sinmai-shock-mod\\dg-sinmai-shcoker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\10158\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Cainong\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -49,7 +49,13 @@
       "frameworks": {
         "net472": {
           "targetAlias": "net472",
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\RuntimeIdentifierGraph.json"
+          "dependencies": {
+            "QRCoder": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

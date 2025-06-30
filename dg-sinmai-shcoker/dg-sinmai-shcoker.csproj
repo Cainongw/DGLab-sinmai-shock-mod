@@ -15,248 +15,266 @@
 		<Platforms>AnyCPU;x64</Platforms>
 	</PropertyGroup>
 
-	<ItemGroup>
-		<Reference Include="AMDaemon.NET">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\AMDaemon.NET.dll</HintPath>
-		</Reference>
-		<Reference Include="Assembly-CSharp-firstpass">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
-		</Reference>
-		<Reference Include="Assembly-CSharp">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\Assembly-CSharp.dll</HintPath>
-		</Reference>
-		<Reference Include="I18N.CJK">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\I18N.CJK.dll</HintPath>
-		</Reference>
-		<Reference Include="I18N">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\I18N.dll</HintPath>
-		</Reference>
-		<Reference Include="Mono.Posix">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\Mono.Posix.dll</HintPath>
-		</Reference>
-		<Reference Include="Unity.Analytics.DataPrivacy">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\Unity.Analytics.DataPrivacy.dll</HintPath>
-		</Reference>
-		<Reference Include="Unity.TextMeshPro">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\Unity.TextMeshPro.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.AccessibilityModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.AccessibilityModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.AIModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.AIModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.AnimationModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.ARModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.ARModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.AssetBundleModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.AudioModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.BaselibModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.BaselibModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.ClothModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.ClothModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.ClusterInputModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.ClusterInputModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.ClusterRendererModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.ClusterRendererModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.CoreModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.CrashReportingModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.CrashReportingModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.DirectorModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.DirectorModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.FileSystemHttpModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.FileSystemHttpModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.GameCenterModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.GameCenterModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.GridModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.GridModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.HotReloadModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.HotReloadModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.ImageConversionModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.IMGUIModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.InputModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.InputModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.JSONSerializeModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.JSONSerializeModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.LocalizationModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.LocalizationModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.Networking">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.Networking.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.ParticleSystemModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.PerformanceReportingModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.PerformanceReportingModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.Physics2DModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.Physics2DModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.PhysicsModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.ProfilerModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.ProfilerModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.ScreenCaptureModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.ScreenCaptureModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.SharedInternalsModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.SharedInternalsModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.SpatialTracking">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.SpatialTracking.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.SpriteMaskModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.SpriteMaskModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.SpriteShapeModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.SpriteShapeModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.StreamingModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.StreamingModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.StyleSheetsModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.StyleSheetsModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.SubstanceModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.SubstanceModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.TerrainModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.TerrainModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.TerrainPhysicsModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.TerrainPhysicsModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.TextCoreModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.TextCoreModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.TextRenderingModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.TilemapModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.TilemapModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.Timeline">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.Timeline.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.TimelineModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.TimelineModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.TLSModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.TLSModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.UI">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.UI.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.UIElementsModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.UIElementsModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.UIModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.UIModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.UmbraModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.UmbraModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.UNETModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.UNETModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.UnityAnalyticsModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.UnityAnalyticsModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.UnityConnectModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.UnityConnectModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.UnityTestProtocolModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.UnityTestProtocolModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.UnityWebRequestAudioModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.UnityWebRequestModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.UnityWebRequestModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.UnityWebRequestTextureModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.UnityWebRequestWWWModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.VehiclesModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.VehiclesModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.VFXModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.VFXModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.VideoModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.VideoModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.VRModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.VRModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.WindModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.WindModule.dll</HintPath>
-		</Reference>
-		<Reference Include="UnityEngine.XRModule">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\UnityEngine.XRModule.dll</HintPath>
-		</Reference>
-		<Reference Include="websocket-sharp">
-		  <HintPath>websocket-sharp.dll</HintPath>
-		</Reference>
-		<Reference Include="zxing.unity">
-			<HintPath>G:\SDEZ\Package\Sinmai_Data\Managed\zxing.unity.dll</HintPath>
-		</Reference>
-		<Reference Include="MelonLoader">
-			<HintPath>G:\SDEZ\Package\MelonLoader\net35\MelonLoader.dll</HintPath>
-		</Reference>
-		<Reference Include="0Harmony">
-			<HintPath>G:\SDEZ\Package\MelonLoader\net35\0Harmony.dll</HintPath>
-		</Reference>
-
-	</ItemGroup>
-
 	<PropertyGroup>
 		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
 		<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
 	</PropertyGroup>
 
 	<ItemGroup>
+		<Compile Include="Config.cs" />
 		<Compile Include="Core.cs" />
+		<Compile Include="GlobalVars.cs" />
+		<Compile Include="MissHandler.cs" />
+		<Compile Include="MessageHandler.cs" />
+		<Compile Include="MiniJSON.cs" />
+		<Compile Include="QRGen.cs" />
+		<Compile Include="WebsocketHandler.cs" />
 	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="QRCoder" Version="1.6.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="AMDaemon.NET">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\AMDaemon.NET.dll</HintPath>
+		</Reference>
+		<Reference Include="Assembly-CSharp-firstpass">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+		</Reference>
+		<Reference Include="Assembly-CSharp">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\Assembly-CSharp.dll</HintPath>
+		</Reference>
+		<Reference Include="I18N.CJK">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\I18N.CJK.dll</HintPath>
+		</Reference>
+		<Reference Include="I18N">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\I18N.dll</HintPath>
+		</Reference>
+		<Reference Include="Mono.Posix">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\Mono.Posix.dll</HintPath>
+		</Reference>
+		<Reference Include="Newtonsoft.Json">
+		  <HintPath>F:\prism\Package\MelonLoader\Managed\Newtonsoft.Json.dll</HintPath>
+		  <Private>False</Private>
+		</Reference>
+		<Reference Include="Tomlet">
+		  <HintPath>F:\prism\Package\MelonLoader\net35\Tomlet.dll</HintPath>
+		</Reference>
+		<Reference Include="Unity.Analytics.DataPrivacy">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\Unity.Analytics.DataPrivacy.dll</HintPath>
+		</Reference>
+		<Reference Include="Unity.TextMeshPro">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\Unity.TextMeshPro.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.AccessibilityModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.AccessibilityModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.AIModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.AIModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.AnimationModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.ARModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.ARModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.AssetBundleModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.AudioModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.BaselibModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.BaselibModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.ClothModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.ClothModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.ClusterInputModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.ClusterInputModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.ClusterRendererModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.ClusterRendererModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.CoreModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.CrashReportingModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.CrashReportingModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.DirectorModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.DirectorModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.FileSystemHttpModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.FileSystemHttpModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.GameCenterModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.GameCenterModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.GridModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.GridModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.HotReloadModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.HotReloadModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.ImageConversionModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.IMGUIModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.InputModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.InputModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.JSONSerializeModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.JSONSerializeModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.LocalizationModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.LocalizationModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.Networking">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.Networking.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.ParticleSystemModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.PerformanceReportingModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.PerformanceReportingModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.Physics2DModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.Physics2DModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.PhysicsModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.ProfilerModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.ProfilerModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.ScreenCaptureModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.ScreenCaptureModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.SharedInternalsModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.SharedInternalsModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.SpatialTracking">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.SpatialTracking.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.SpriteMaskModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.SpriteMaskModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.SpriteShapeModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.SpriteShapeModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.StreamingModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.StreamingModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.StyleSheetsModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.StyleSheetsModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.SubstanceModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.SubstanceModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.TerrainModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.TerrainModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.TerrainPhysicsModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.TextCoreModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.TextCoreModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.TextRenderingModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.TilemapModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.TilemapModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.Timeline">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.Timeline.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.TimelineModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.TimelineModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.TLSModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.TLSModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UI">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.UI.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UIElementsModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.UIElementsModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UIModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UmbraModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.UmbraModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UNETModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.UNETModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UnityAnalyticsModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UnityConnectModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.UnityConnectModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UnityTestProtocolModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UnityWebRequestAudioModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UnityWebRequestModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.UnityWebRequestModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UnityWebRequestTextureModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UnityWebRequestWWWModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.VehiclesModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.VehiclesModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.VFXModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.VFXModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.VideoModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.VideoModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.VRModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.VRModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.WindModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.WindModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.XRModule">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\UnityEngine.XRModule.dll</HintPath>
+		</Reference>
+		<Reference Include="websocket-sharp">
+		  <HintPath>F:\prism\Package\Mods\websocket-sharp.dll</HintPath>
+		</Reference>
+		<Reference Include="zxing.unity">
+			<HintPath>F:\prism\Package\Sinmai_Data\Managed\zxing.unity.dll</HintPath>
+		</Reference>
+		<Reference Include="MelonLoader">
+			<HintPath>F:\prism\Package\MelonLoader\net35\MelonLoader.dll</HintPath>
+		</Reference>
+		<Reference Include="0Harmony">
+			<HintPath>F:\prism\Package\MelonLoader\net35\0Harmony.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+	 
 	
 	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
-		<Exec Command="COPY &quot;$(TargetPath)&quot; &quot;G:\SDEZ\Package\Mods&quot;" />
+		<Exec Command="COPY &quot;$(TargetPath)&quot; &quot;F:\prism\Package\Mods&quot;" />
 	</Target>
 </Project>

@@ -1,0 +1,32 @@
+# config.toml
+
+# WebSocket 后端地址
+# 不要使用像是127.0.0.1这样的回环地址
+# WebSocket backend address
+# DO NOT use loopback address like 127.0.0.1 
+ws_url = "ws://127.0.0.1:9999/"
+
+# Miss时发送的 JSON 内容
+send_content = '''
+{
+  "cmd": "set_pattern",
+  "pattern_name": "经典",
+  "intensity": 100,
+  "ticks": 1
+}
+'''
+
+# 电击模式配置
+[shock_mode]
+# 模式类型：single / ramp
+type = "single"
+
+# 单次电击参数（仅当 type = "single" 时生效）
+single_intensity = 100
+single_ticks = 1
+
+# 逐步增强电击参数（仅当 type = "ramp" 时生效）
+ramp_start_intensity = 50
+ramp_step = 10
+ramp_max_intensity = 150
+ramp_ticks = 1
