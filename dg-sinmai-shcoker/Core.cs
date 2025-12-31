@@ -17,12 +17,24 @@ namespace dg_sinmai_shcoker
 {
     public class Main : MelonMod
     {
+        private DGLabWebSocketServer _wsServer;
+
         public override void OnInitializeMelon()
         {
             ConfigManager.Load();
             MelonLogger.Msg("DG Shock Miss Mod 已加载！");
+
+            // 启动 WebSocket 服务器
+            _wsServer = new DGLabWebSocketServer();
+            _wsServer.Start();
             WebsocketHandler.Connect();
         }
+
+        public override void OnApplicationQuit()
+        {
+            _wsServer?.Stop();
+        }
+
         public override void OnUpdate()
         {
             // 按下 M 键模拟 Miss

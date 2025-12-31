@@ -197,3 +197,11 @@ G:\projects\dg-sinmai-shock-mod\dg-sinmai-shcoker\bin\Debug\net472\UnityEngine.X
 G:\projects\dg-sinmai-shock-mod\dg-sinmai-shcoker\bin\Debug\net472\zxing.unity.dll
 G:\projects\dg-sinmai-shock-mod\dg-sinmai-shcoker\bin\Debug\net472\ValueTupleBridge.dll
 G:\projects\dg-sinmai-shock-mod\dg-sinmai-shcoker\bin\Debug\net472\MelonLoader.xml
+G:\project\DGLab-sinmai-shock-mod\dg-sinmai-shcoker\obj\Debug\net472\dg-sinmai-shcoker.csproj.AssemblyReference.cache
+G:\project\DGLab-sinmai-shock-mod\dg-sinmai-shcoker\obj\Debug\net472\dg-sinmai-shcoker.GeneratedMSBuildEditorConfig.editorconfig
+G:\project\DGLab-sinmai-shock-mod\dg-sinmai-shcoker\obj\Debug\net472\dg-sinmai-shcoker.AssemblyInfoInputs.cache
+G:\project\DGLab-sinmai-shock-mod\dg-sinmai-shcoker\obj\Debug\net472\dg-sinmai-shcoker.AssemblyInfo.cs
+G:\project\DGLab-sinmai-shock-mod\dg-sinmai-shcoker\obj\Debug\net472\dg-sinmai-shcoker.csproj.CoreCompileInputs.cache
+G:\project\DGLab-sinmai-shock-mod\dg-sinmai-shcoker\obj\Debug\net472\dg-sinmai-shcoker.sourcelink.json
+G:\project\DGLab-sinmai-shock-mod\dg-sinmai-shcoker\obj\Debug\net472\dg_sinmai_shcoker.dll
+G:\project\DGLab-sinmai-shock-mod\dg-sinmai-shcoker\obj\Debug\net472\dg_sinmai_shcoker.pdb

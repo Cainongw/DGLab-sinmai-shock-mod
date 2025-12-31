@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xMN05plKM2c=",
+  "dgSpecHash": "CmYv3rPleSU=",
   "success": true,
-  "projectFilePath": "G:\\projects\\dg-sinmai-shock-mod\\dg-sinmai-shcoker\\dg-sinmai-shcoker.csproj",
+  "projectFilePath": "G:\\project\\DGLab-sinmai-shock-mod\\dg-sinmai-shcoker\\dg-sinmai-shcoker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cainong\\.nuget\\packages\\qrcoder\\1.6.0\\qrcoder.1.6.0.nupkg.sha512"
   ],
